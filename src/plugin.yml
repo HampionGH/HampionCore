@@ -1,0 +1,69 @@
+name: HampionCore
+main: com.craftbukkit.Main
+version: 1.0.2
+author: Hampion
+commands:
+  welcome:
+    aliases: [hello, what]
+    description: Information on server
+  creative:
+    aliases: [hampi, hampio]
+    description: Hampions huge brain
+  cookie:
+    aliases: [secret, muffins]
+    description: Hampion Cookies
+  survival:
+    aliases: [gm0, gamemode0]
+    description: survival mode
+  tpa:
+    aliases: [teleport, tpo]
+    description: teleporting command
+  beans:
+    aliases: [yummy, yumyum]
+    description: chesters beanie command
+  day:
+    aliases: [midday, lunch]
+    description: set to day time
+  night:
+    aliases: [nighttime, goodnight]
+    description: set to night time
+  hg:
+    aliases: [hologram, holograms]
+    description: spawn a hologram
+  fly:
+    aliases: [flys, flying]
+    description: makes you fly
+  god:
+    aliases: [gods, godmode]
+    description: makes you invincible
+  kick:
+    aliases: [kicked, kickem]
+    description: kicks a player
+  ban:
+    aliases: [banning, banned]
+    description: bans a player
+  vanish:
+    aliases: [v, vanished]
+    description: vanishes yourself
+  gun:
+    aliases: [machingun, gunny]
+    description: get yourself a nice gun
+  message:
+    aliases: [msg, m]
+    description: msg another player
+  reply:
+    aliases: [r, respond]
+    description: reply to a message
+  unban:
+    aliases: [removeban]
+    description: unbans a player
+  tpaccept:
+    aliases: [tpaaccepting]
+    description: accepts teleport request
+  tpadeny:
+    aliases: [tpadenied]
+    description: denies teleport request
+  menu:
+    aliases: [escmenus]
+    description: opens menu
+

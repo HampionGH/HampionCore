@@ -1,0 +1,40 @@
+/*package com.lewis.hampioncore;
+
+import org.bukkit.ChatColor;
+import org.bukkit.GameMode;
+import org.bukkit.Material;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.command.ConsoleCommandSender;
+import org.bukkit.entity.Player;
+import org.bukkit.event.entity.ItemSpawnEvent;
+import org.bukkit.inventory.ItemStack;
+
+public class BeanCommand implements CommandExecutor {
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+
+        if (sender instanceof ConsoleCommandSender) {
+            System.out.println("[HampionCore] You cannot use this command in console!");
+        }
+
+        ItemStack beans = new ItemStack(Material.COCOA_BEANS, 10);
+
+        if (sender instanceof Player) {
+            Player player = (Player) sender;
+
+            if(cmd.getName().equalsIgnoreCase("beans")) {
+                player.getWorld().dropItem(player.getLocation(), beans);
+
+
+            }
+        }
+
+
+        return false;
+    }
+
+}
+*/
